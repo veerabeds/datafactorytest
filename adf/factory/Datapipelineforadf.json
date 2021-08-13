@@ -1,0 +1,9 @@
+{
+	"name": "Datapipelineforadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d749a536-305b-4b42-a622-d64c2aa80f6c",
+		"tenantId": "5670abab-5a2b-4e4d-9632-fc301e712512"
+	}
+}
