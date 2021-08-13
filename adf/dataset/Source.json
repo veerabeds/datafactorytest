@@ -1,0 +1,23 @@
+{
+	"name": "Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Blobsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "AFVC_0001.TXT",
+				"folderPath": "rawdata",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
